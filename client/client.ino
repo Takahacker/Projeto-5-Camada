@@ -15,7 +15,7 @@ int calcularParidade(char data) {
 }
 
 void funcaoEspera(){
-  for(int i = 0; i < 315; i++){
+  for(int i = 0; i < 8333; i++){
     asm("NOP");
   }
 }
@@ -52,5 +52,4 @@ void loop() {
   Serial.println("Caractere enviado:");
   Serial.println(caractere);
   Serial.println(caractere,BIN);
-  delay(2000);
 }

@@ -15,13 +15,13 @@ int calcularParidade(char data) {
 }
 
 void funcaoEspera(){
-  for(int i = 0; i < 315; i++){
+  for(int i = 0; i < 8333; i++){
     asm("NOP");
   }
 }
 
 void funcaoEsperaMeioPeriodo(){
-  for(int i = 0; i < 315/2; i++){
+  for(int i = 0; i < 8333/2; i++){
     asm("NOP");
   }
 }
